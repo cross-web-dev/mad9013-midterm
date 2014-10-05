@@ -159,12 +159,9 @@ Media Queries for different screen sizes
         margin-top: 10%;
     }
     /*Below the main section second and third columns will float and take up 50% the width*/
-    .two{
-        float: left;
-        width: 50%;
-    }
+    .two,
     .three{
-        float: right;
+        float: left;
         width: 50%;
     }
 
