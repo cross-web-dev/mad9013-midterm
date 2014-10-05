@@ -198,8 +198,14 @@ Media Queries for different screen sizes
 @media all and (min-width: 1081px){
     /*have four columns. They are, from left to right, nav, main, second, third*/
 
+    /* Note that screen width at any size for this breakpoint would calculated as follows:
+       nav width = 20%
+       main width = 40%
+       two width = 20%
+       third width = 20%
+       With total width 100% for any window size in that range. */
     /*navigation bar occupies 100% of navigation section, decrease its column width to 20% to give
-      more space to other columns main, two and thrid namely. */
+      more space to other columns main, two and third namely. */
      .nav{
          width: 20%;
          float: left;
@@ -217,13 +223,15 @@ Media Queries for different screen sizes
         clear: none;
         float: left;
         width: 40%;
-        margin-top: 0%;
+        /* let main section text to be aligned to the first line text of navigation column */
+        margin-top: -1.5%;
     }
     .two,
     .three{
         float:left;
         width: 20%;
-        margin-top: 0%;
+        /* let two/three section text to be aligned to the first line text of navigation column */
+        margin-top: -1.5%;
     }
     .footer{
         clear: both;
