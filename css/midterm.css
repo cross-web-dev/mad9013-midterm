@@ -67,7 +67,7 @@ a{
 
 }
 .main{
-    clear: both;;
+    clear: both;
     margin-top: 20%
 
 }
@@ -189,6 +189,41 @@ Media Queries for different screen sizes
         float: left;
         /*let both columns to occupy 25% percent of the screen wide.*/
         width: 25%;
+    }
+    .footer{
+        clear: both;
+    }
+}
+
+@media all and (min-width: 1081px){
+    /*have four columns. They are, from left to right, nav, main, second, third*/
+
+    /*navigation bar occupies 100% of navigation section, decrease its column width to 20% to give
+      more space to other columns main, two and thrid namely. */
+     .nav{
+         width: 20%;
+         float: left;
+     }
+    /* let each navigation list item to occupy 100% of navbar space so that list items would be represented as
+       column. */
+    .navbar li{
+        width: 100%;
+    }
+
+    .main{
+        /* main section in all other smaller screen sizes was cleared to "both" value. since it was required
+           to start main section under navigation bar. But now it is required to have main section beside
+           navigation column so clear value must be reset to "none". */
+        clear: none;
+        float: left;
+        width: 40%;
+        margin-top: 0%;
+    }
+    .two,
+    .three{
+        float:left;
+        width: 20%;
+        margin-top: 0%;
     }
     .footer{
         clear: both;
