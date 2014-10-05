@@ -96,7 +96,14 @@ a{
 
 .navbar li{
 	float:left;
-	width: 190px;  /* 960/4 = 240  works if the layout is 960*/
+
+    /* Let navigation bar has two rows where each row contains two navigation elements on smallest screen size.*/
+	width: 50%;  /* 960/4 = 240  works if the layout is 960*/
+
+    /* TODO: Check why it did not work properly? */
+    /*@media (min-width: 500px) and (max-width: 719px){
+        width: 118px;
+    }*/
 	list-style:none;
 }
 .navbar a{
