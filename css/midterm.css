@@ -140,3 +140,35 @@ a{
 	color: #999;
 	background-color: #e4e4e4;
 }
+
+/****************************************
+Media Queries for different screen sizes
+****************************************/
+@media all and (min-width: 500px) and (max-width: 719px){
+
+    /* Have the nav as a single horizontal bar across the top.*/
+    .navbar li{
+        width: 25%;
+    }
+
+    /*Below nav show the main section as the whole width. Nothing to do specifially with this requirement since
+      main section was cleared on the previous smaller size and its display property is block by default which means
+      that it occupies the whole width under the navigation bar in this case. Just adjust top margin of the main
+      section*/
+    .main{
+        margin-top: 10%;
+    }
+    /*Below the main section second and third columns will float and take up 50% the width*/
+    .two{
+        float: left;
+        width: 50%;
+    }
+    .three{
+        float: right;
+        width: 50%;
+    }
+
+    .footer{
+        clear: both;
+    }
+}
