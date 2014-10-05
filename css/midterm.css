@@ -151,7 +151,7 @@ Media Queries for different screen sizes
         width: 25%;
     }
 
-    /*Below nav show the main section as the whole width. Nothing to do specifially with this requirement since
+    /*Below nav show the main section as the whole width. Nothing to do specifically with this requirement since
       main section was cleared on the previous smaller size and its display property is block by default which means
       that it occupies the whole width under the navigation bar in this case. Just adjust top margin of the main
       section*/
@@ -168,6 +168,31 @@ Media Queries for different screen sizes
         width: 50%;
     }
 
+    .footer{
+        clear: both;
+    }
+}
+
+@media all and (min-width: 720px) and (max-width: 1080px){
+    /*have the nav as a horizontal bar across the top, under the masthead.*/
+    .navbar li{
+        width: 25%;
+    }
+
+    /*Below the nav have three columns - main, second, third*/
+    .main{
+        float: left;
+        /*let the width of main section to occupy 50% of screen size*/
+        width: 50%;
+        /*align top margin of main section with top margin of adjacent columns two and three.*/
+        margin-top: 10%;
+    }
+    .two,
+    .three{
+        float: left;
+        /*let both columns to occupy 25% percent of the screen wide.*/
+        width: 25%;
+    }
     .footer{
         clear: both;
     }
