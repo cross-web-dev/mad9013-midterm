@@ -67,7 +67,15 @@ a{
 
 }
 .main{
+    clear: both;;
+    margin-top: 30%
 
+}
+.two{
+    margin-top: 10%;
+}
+.three{
+    margin-top: 10%;
 }
 .sidebar{
 
