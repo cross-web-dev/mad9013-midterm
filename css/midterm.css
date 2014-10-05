@@ -88,7 +88,7 @@ a{
 
 .navbar li{
 	float:left;
-	width: 240px;  /* 960/4 = 240  works if the layout is 960*/
+	width: 190px;  /* 960/4 = 240  works if the layout is 960*/
 	list-style:none;
 }
 .navbar a{
