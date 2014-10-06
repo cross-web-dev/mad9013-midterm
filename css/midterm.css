@@ -68,14 +68,16 @@ a{
 }
 .main{
     clear: both;
-    margin-top: 20%
-
+    margin-top: 20%;
+    background-color: red;
 }
 .two{
     margin-top: 10%;
+    background-color: yellow;
 }
 .three{
     margin-top: 10%;
+    background-color: green;
 }
 .sidebar{
 
@@ -209,6 +211,8 @@ Media Queries for different screen sizes
      .nav{
          width: 20%;
          float: left;
+         /* Align navigation column with other columns vertically*/
+         margin-top: -1.5%;
      }
     /* let each navigation list item to occupy 100% of navbar space so that list items would be represented as
        column. */
