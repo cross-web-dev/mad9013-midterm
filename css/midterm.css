@@ -69,7 +69,10 @@ a{
 .main{
     clear: both;
     width: 90%;
-    margin: 5% auto 5% auto;
+    /*Margin top of main section must be more than 20% otherwise the empty space between the main/navigation
+    would not appear. This because of the margin caluclation reference line is the same as the top border
+    of navigation section.*/
+    margin: 30% auto 5% auto;
     background-color: #9DD6FF ;
 }
 .two{
