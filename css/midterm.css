@@ -8,7 +8,7 @@
 }
 body{
 	font-size: 62.5%;
-	background-color: #666;
+	background-color: #354D66;
 }
 h1, h2, h3{
 	font-weight: 700;
@@ -53,7 +53,7 @@ a{
 					Layout
 ***********************************/
 .wrapper{
-	background-color: #fff;
+	background-color: #2D8ACC;
     width: 95%;
     margin: 0 auto;
 }
@@ -70,17 +70,17 @@ a{
     clear: both;
     width: 90%;
     margin: 5% auto 5% auto;
-    background-color: red;
+    background-color: #9DD6FF ;
 }
 .two{
     width: 90%;
     margin: 0 auto 5% auto;
-    background-color: yellow;
+    background-color: #9DD6FF;
 }
 .three{
     width: 90%;
     margin: 0 auto 5% auto;
-    background-color: green;
+    background-color: #9DD6FF;
 }
 .sidebar{
 
@@ -117,14 +117,15 @@ a{
 	text-align: center;
 	text-decoration: none;
 	color: #333;
-	background-color: #e4e4e4;
+    color: #fff;
+	background-color: #436B7F;
 }
 .navbar a:visited,
 .navbar a:hover,
 .navbar a:active,
 .navbar a:focus{
-	color: #fff;
-	background-color: #333;
+	color: #000;
+	background-color: #39BCFF;
 }
 
 /***********************************
@@ -142,8 +143,8 @@ a{
 .footer p{
 	padding: 20px 20px;
 	font-size: 1.2rem;
-	color: #999;
-	background-color: #e4e4e4;
+	color: #fff;
+	background-color: #2D8ACC;
 }
 
 /****************************************
