@@ -17,7 +17,7 @@ h1, h2, h3{
 }
 h1{
 	font-size: 3.6rem;
-	font-family: "Cedarville Cursive", cursive;
+	font-family: neuton-cursive,"Cedarville Cursive", cursive;
 }
 h2{
 	font-size: 3.0rem;
@@ -93,6 +93,7 @@ a{
 ***********************************/
 .masthead h1{
 	padding: 30px 20px;
+    background-color: #3784B2;
 }
 
 /***********************************
@@ -139,7 +140,7 @@ a{
 	padding: 20px 20px;
 	font-size: 1.2rem;
 	color: #fff;
-	background-color: #2D8ACC;
+	background-color: #3E5766;
 }
 
 /****************************************
