@@ -160,9 +160,12 @@ Media Queries for different screen sizes
     .main{
         margin-top: 10%;
     }
+
     /*Below the main section second and third columns will float and take up 50% the width*/
     .two{
         float: left;
+
+        /*let the width of column two to occupy 50% of screen size (42.5+ 5 +2.5 = 50)*/
         width: 42.5%;
         margin-left: 5%;
         margin-right: 2.5%
@@ -170,6 +173,8 @@ Media Queries for different screen sizes
 
     .three{
         float: left;
+
+        /*let the width of column three to occupy 50% of screen size (42.5+ 5 +2.5 = 50)*/
         width: 42.5%;
         margin-right: 5%;
         margin-left: 2.5%
