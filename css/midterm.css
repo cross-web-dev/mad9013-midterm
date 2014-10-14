@@ -86,7 +86,7 @@ a{
 
 }
 .footer{
-
+    clear: both;
 }
 /***********************************
 					Masthead
@@ -174,10 +174,6 @@ Media Queries for different screen sizes
         margin-right: 5%;
         margin-left: 2.5%
     }
-
-    .footer{
-        clear: both;
-    }
 }
 
 @media all and (min-width: 720px) and (max-width: 1080px){
@@ -209,9 +205,6 @@ Media Queries for different screen sizes
 
         /*align top margin of main section with top margin of adjacent columns two and three.*/
         margin-top: 5%;
-    }
-    .footer{
-        clear: both;
     }
 }
 
@@ -272,8 +265,5 @@ Media Queries for different screen sizes
 
         /* let two/three section text to be aligned to the first line text of navigation column */
         margin-top: 5%;
-    }
-    .footer{
-        clear: both;
     }
 }
