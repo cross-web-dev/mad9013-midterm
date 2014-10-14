@@ -227,10 +227,15 @@ Media Queries for different screen sizes
     /*navigation bar occupies 100% of navigation section, decrease its column width to 20% to give
       more space to other columns main, two and third namely. */
      .nav{
-         width: 20%;
          float: left;
+
+         /*let the width of nav section to occupy 20% of screen size (17.5+ 2 +0.5 = 20)*/
+         width: 17.5%;
+         margin-left: 2%;
+         margin-right: 0.5%;
          /* Align navigation column with other columns vertically*/
-         margin-top: -1.5%;
+         margin-top: 5%;
+
      }
     /* let each navigation list item to occupy 100% of navbar space so that list items would be represented as
        column. */
@@ -243,17 +248,30 @@ Media Queries for different screen sizes
            to start main section under navigation bar. But now it is required to have main section beside
            navigation column so clear value must be reset to "none". */
         clear: none;
+
         float: left;
-        width: 40%;
+
+        /*let the width of main section to occupy 40% of screen size (39+ 0.5 +0.5 = 40)*/
+        width: 39%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+
         /* let main section text to be aligned to the first line text of navigation column */
-        margin-top: -1.5%;
+        margin-top: 5%;
     }
     .two,
     .three{
         float:left;
-        width: 20%;
+
+        /*let the width of main section to occupy 19% of screen size (18+ 0.5 +0.5 = 19)
+        It was not set to 20% so that to keep symmetry between margin left of nav section and margin right
+        of column three.*/
+        width: 18%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+
         /* let two/three section text to be aligned to the first line text of navigation column */
-        margin-top: -1.5%;
+        margin-top: 5%;
     }
     .footer{
         clear: both;
