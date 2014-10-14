@@ -189,16 +189,26 @@ Media Queries for different screen sizes
     /*Below the nav have three columns - main, second, third*/
     .main{
         float: left;
-        /*let the width of main section to occupy 50% of screen size*/
-        width: 50%;
+
+        /*let the width of main section to occupy 40% of screen size (37+ 2 +1 = 40)*/
+        width: 37%;
+        margin-left: 2%;
+        margin-right: 1%;
+
         /*align top margin of main section with top margin of adjacent columns two and three.*/
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .two,
     .three{
         float: left;
-        /*let both columns to occupy 25% percent of the screen wide.*/
-        width: 25%;
+
+        /*let both columns to occupy 29% percent of the screen width (27+ 1 +1 = 29)*/
+        width: 27%;
+        margin-left: 1%;
+        margin-right: 1%;
+
+        /*align top margin of main section with top margin of adjacent columns two and three.*/
+        margin-top: 5%;
     }
     .footer{
         clear: both;
