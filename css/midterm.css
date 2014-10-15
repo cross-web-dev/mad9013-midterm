@@ -8,7 +8,7 @@
 }
 body{
 	font-size: 62.5%;
-	background-color: #354D66;
+	background-color: #223C4C;
 }
 h1, h2, h3{
 	font-weight: 700;
@@ -53,7 +53,7 @@ a{
 					Layout
 ***********************************/
 .wrapper{
-	background-color: #2D8ACC;
+	background-color: #5AA1CC;
     width: 95%;
     margin: 0 auto;
 }
@@ -73,17 +73,17 @@ a{
     would not appear. This because of the margin caluclation reference line is the same as the top border
     of navigation section.*/
     margin: 30% auto 5% auto;
-    background-color: #9DD6FF ;
+    background-color: #BDC9D0;
 }
 .two{
     width: 90%;
     margin: 0 auto 5% auto;
-    background-color: #9DD6FF;
+    background-color: #BDC9D0;
 }
 .three{
     width: 90%;
     margin: 0 auto 5% auto;
-    background-color: #9DD6FF;
+    background-color: #BDC9D0;
 }
 .sidebar{
 
@@ -96,7 +96,8 @@ a{
 ***********************************/
 .masthead h1{
 	padding: 30px 20px;
-    background-color: #3784B2;
+    background-color: #437999;
+    color: #fff;
 }
 
 /***********************************
@@ -117,14 +118,14 @@ a{
 	text-decoration: none;
 	color: #333;
     color: #fff;
-	background-color: #436B7F;
+	background-color: #223C4C;
 }
 .navbar a:visited,
 .navbar a:hover,
 .navbar a:active,
 .navbar a:focus{
 	color: #000;
-	background-color: #39BCFF;
+	background-color: #BDC9D0;
 }
 
 /***********************************
@@ -143,7 +144,7 @@ a{
 	padding: 20px 20px;
 	font-size: 1.2rem;
 	color: #fff;
-	background-color: #3E5766;
+	background-color: #39454C;
 }
 
 /****************************************
